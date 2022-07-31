@@ -20,7 +20,6 @@ struct ContentView: View {
                     Spacer()
                     Image(systemName:"gearshape.fill")
                 }.padding()
-                    .font(.system(size:30))
                 HStack {
                     Text("12:28")
                         .font(.system(size:80,weight:.medium,design:.rounded))
@@ -30,7 +29,6 @@ struct ContentView: View {
                 }
                 Text("باقي على الأذان")
                     .padding()
-                    .font(.system(size:28))
                     VStack {
                         HStack {
                             Image(systemName:"chevron.left")
@@ -72,10 +70,9 @@ struct ContentView: View {
                             Spacer()
                             Text("العشاء")
                         }.padding()
-                    }.font(.system(size:28))
-                    .background(.white.opacity(0.4))
+                    }.background(.white.opacity(0.4))
             }.foregroundColor(.white)
-             
+             .font(.system(size:28,design:.serif))
         }
     }
 }
