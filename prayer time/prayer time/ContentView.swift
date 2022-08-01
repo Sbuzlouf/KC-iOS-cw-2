@@ -72,7 +72,7 @@ struct ContentView: View {
                         }.padding()
                     }.background(.white.opacity(0.4))
             }.foregroundColor(.white)
-             .font(.system(size:28,design:.serif))
+             .font(Font.custom("Al Bayan Bold", size:28))
         }
     }
 }
